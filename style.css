@@ -97,7 +97,7 @@ nav.sidebar{
   float         : left;
   margin-top    : -5px;
   position      : absolute;
-  padding-bottom: 218em;
+  padding-bottom: 241.52em;
 }
 h4{
   box-sizing    : inherit;
@@ -684,8 +684,20 @@ div.d8 a.a8:hover{
 
 div.section9{
   margin-left: 230px;
-  height: 500px;
+  height: 567px;
   text-align: center;
+}
+div.a9 .s9a{
+  padding: 14.5px 24px;
+  color: white;
+  background-color: #616161;
+}
+div.a9 .s9a:hover{
+  color: black;
+  background-color: #ccc;
+}
+div.a9{
+  margin-top: 22px;
 }
 div.s9 h2{
   font-size: 36px;
@@ -696,17 +708,131 @@ div.s9 h2{
 div.s9 h4{
   color: #3a3a3a;
 }
+iframe{
+  border: 5px solid #ddd;
+  width: 100%;
+  height: 300px;
+}
+.sdw9{
+  min-width: 498px;
+  padding: 22px 8px;
+}
 div.section10{
   margin-left: 230px;
-  height: 500px;
+  height: 537px;
   background-color: black;
   text-align: center;
+  margin-top: -10px;
 }
-div.section11{
+.relative{
+  position: relative;
+  text-align: center;
+  /*justify-content: center;*/
+}
+div.top{
+  position: absolute;
+  text-align: center;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+div.top h2{
+  font-size: 36px;
+  margin-top: 51px;
+}
+div.top h3{
+  margin-top: -4px;
+  margin-bottom: 28px;
+}
+a.dia{
+  position: absolute;
+  text-align: center;
+  top: 259px;
+  left: 43.2em;
+  color: white;
+  background-color: #4CAF50;
+  padding: 13px 24px 12px 24px;
+  font-size: 17px;
+}
+a.dia:hover{
+  color: black;
+  background-color: white;
+}
+div.fl{
+  /*float: left;*/
+  display: inline-flex;
+}
+
+
+
+
+
+
+div.footer{
   margin-left: 230px;
-  height: 250px;
+  height: 314px;
   background-color: #616161;
 }
+div div.fha{
+  padding-top: 63px;
+  padding-left: 28px;
+  float: left;
+}
+div.fha a{
+  color: black;
+  background-color: #f1f1f1;
+  padding: 11px 16px 12px 16px;
+  font-size: 16px;
+  margin: 4px;
+  text-rendering: initial;
+  /*border-top: 1px solid #f1f1f1;*/
+}
+div.fha a#e{
+  padding-left: 17px;
+  margin-left: 3px;
+}
+div.fha a:hover{
+  background-color: #ccc;
+  /*border-top: 1px solid #ccc;*/
+}
+div.hside{
+  float: right;
+  letter-spacing: 4px;
+  padding-top: 64px;
+  padding-right: 32px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+div.hside a{
+  color: white;
+}
+div.hside a:hover{
+  color: #4CAF50;
+}
+div.end{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin-top: 55px;
+}
+div.end p, div.end a{
+  color: white;
+  line-height: 1.5;
+}
+div.end p a{
+  text-decoration: underline;
+}
+div.end p{
+  margin-bottom: 0;
+}
+div.end a i{
+  font-size: 36px
+}
+div.i{
+  margin-top: 4px;
+}
+
 
 
 
