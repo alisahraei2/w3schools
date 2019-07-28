@@ -87,6 +87,17 @@ div#logo a:hover{
   width          : auto;
   text-decoration: none;
 }
+.navbar a.h{
+  font-size      : 18px;
+  padding-right: 16px;
+  padding-top: 15px;
+}
+
+.navbar a.l{
+  font-size: 19px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
 .navbar a:hover{
   color           : black;
   background-color: white;
@@ -107,6 +118,24 @@ h4{
   margin        : 17px 16px 12px 16px;
   /*word-spacing: 0.5px;*/
 }
+h4.s{
+  margin: 18px 16px 11px 16px;
+}
+h4.p{
+  margin: 17px 16px 11px 16px;
+}
+h4.w{
+  margin: 18px 16px 11px 16px;
+}
+h4.x{
+  margin: 18px 16px 11px 16px;
+}
+h4.r{
+  margin: 18px 16px 11px 16px;
+}
+h4.e{
+  margin: 17px 16px 11px 16px;
+}
 div.r{
   padding: 0.5px 0 1px 0;
 }
@@ -121,13 +150,11 @@ div.h4side{
 nav.sidebar a{
   display: block;
   padding: 0 16px;
-}
-nav.sidebar a{
   font-size: 16px;
 }
 nav.sidebar a:hover{
-  background-color: gray;
-  color           : white;
+  background-color: #ccc;
+  color           : black;
 }
 .shadow{
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
@@ -173,7 +200,7 @@ div.se-left a{
 }
 div.se-left a:hover{
   color           : black;
-  background-color: #c1c1c1;
+  background-color: #ccc;
 }
 div.se-org{
   padding: 43px 48.76px;
@@ -294,7 +321,7 @@ div.se-left2 a{
 }
 div.se-left2 a:hover{
   color           : black;
-  background-color: #c1c1c1;
+  background-color: #ccc;
 }
 div.se-left2{
   padding: 3%;
@@ -361,7 +388,7 @@ div.se-left3 a{
 }
 div.se-left3 a:hover{
   color           : black;
-  background-color: #c1c1c1;
+  background-color: #ccc;
 }
 div.se-left3{
   padding: 3%;
@@ -416,7 +443,7 @@ div.se-left4 a{
 }
 div.se-left4 a:hover{
   color           : black;
-  background-color: #c1c1c1;
+  background-color: #ccc;
   margin-bottom   : -5px;
 }
 div.se-org4{
@@ -500,7 +527,7 @@ div.hd{
 }
 .button a:hover{
   color           : black;
-  background-color: #c1c1c1;
+  background-color: #ccc;
 }
 .Python{
   margin-top: 31px;
@@ -630,7 +657,7 @@ div.sec7 a:hover{
   padding: 18.5px 73px 18.5px 74px;
 }
 .aph{
-  padding: 18.5px 75px 18.5px 73px;
+  padding: 18.5px 73px 18.5px 73px;
 }
 .apy{
   padding: 18.5px 65px 18.5px 65px;
@@ -747,11 +774,11 @@ div.top h3{
 a.dia{
   position: absolute;
   text-align: center;
-  top: 259px;
+  top: 258px;
   left: 43.2em;
   color: white;
   background-color: #4CAF50;
-  padding: 13px 24px 12px 24px;
+  padding: 12.5px 24px 12px 24px;
   font-size: 17px;
 }
 a.dia:hover{
@@ -762,7 +789,9 @@ div.fl{
   /*float: left;*/
   display: inline-flex;
 }
-
+div.end span{
+  padding-left: 4px;
+}
 
 
 
